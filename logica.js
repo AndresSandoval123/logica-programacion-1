@@ -6,9 +6,9 @@ console.log("Primer numero digitado = " + num1, "Segundo numero digitado = " + n
 
 // Número mayor
 
-if(num1 > num2 && num1 > num3){
+if(num1 >= num2 && num1 >= num3){
   console.log("Número mayor = " + num1);
-}else if(num2 > num1 && num2 > num3){
+}else if(num2 >= num1 && num2 >= num3){
   console.log("Número mayor = " + num2);
 }else{
   console.log("Número mayor = " + num3);
